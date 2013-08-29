@@ -8,6 +8,7 @@
 
 #import "DropBoxUserView.h"
 
+
 #define IMAGE_SIZE 20
 
 @interface DropBoxUserView ()
@@ -39,11 +40,23 @@
             [self.ratingImageView addSubview:star];
         }
         
-        [self customizeSubviews];
+        self.mapView = [[MapView alloc]initWithFrame:CGRectMake(10, 50, 300, 180)];
+        MapAnnotation *mapAnnotation = [[MapAnnotation alloc]init];
         
+        CLLocationCoordinate2D location;
+        location.latitude = duo.latitude;
+        location.longitude = duo.longitude;
+        
+        mapAnnotation.coordinate = location;
+        mapAnnotation.title = duo.name;
+        self.mapView.mapAnnotation = mapAnnotation;
+        
+        [self customizeSubviews];
+    
         [self addSubview:self.nameLabel];
         [self addSubview:self.categoryLabel];
         [self addSubview:self.ratingImageView];
+        [self addSubview:self.mapView];
     }
     return self;
 }
@@ -59,8 +72,6 @@
     self.categoryLabel.font = [UIFont fontWithName:@"Helvetica" size:12.0f];
     self.categoryLabel.textColor = [UIColor darkGrayColor];
     self.categoryLabel.backgroundColor = [UIColor clearColor];
-    
-    
-    
 }
+
 @end

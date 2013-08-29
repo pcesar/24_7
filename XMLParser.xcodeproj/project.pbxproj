@@ -33,10 +33,13 @@
 		4D79252217CDF7DE00B811E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79251B17CDF7DE00B811E2 /* AppDelegate.m */; };
 		4D79252517CDF7DE00B811E2 /* DropBoxUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79252117CDF7DE00B811E2 /* DropBoxUserVC.m */; };
 		4D79252917CDF7E500B811E2 /* DropBoxUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79252817CDF7E500B811E2 /* DropBoxUserObject.m */; };
+		4D828C6117CF0C9700914EAB /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D828C6017CF0C9700914EAB /* MapView.m */; };
 		4DB1050E17CE5CB4002D0B0A /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1050D17CE5CB4002D0B0A /* XMLParser.m */; };
 		4DB1051617CE5E1F002D0B0A /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1051117CE5E1E002D0B0A /* stars.png */; };
 		4DB1051817CE5E1F002D0B0A /* DropBoxUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1051517CE5E1F002D0B0A /* DropBoxUserView.m */; };
 		4DB1051B17CE5E7D002D0B0A /* MBProgressHUD+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1051A17CE5E7C002D0B0A /* MBProgressHUD+Utils.m */; };
+		4DB1051D17CE6F55002D0B0A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB1051C17CE6F55002D0B0A /* MapKit.framework */; };
+		4DB1052017CE6F9D002D0B0A /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1051F17CE6F9D002D0B0A /* MapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +93,8 @@
 		4D79252117CDF7DE00B811E2 /* DropBoxUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBoxUserVC.m; sourceTree = "<group>"; };
 		4D79252717CDF7E500B811E2 /* DropBoxUserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBoxUserObject.h; sourceTree = "<group>"; };
 		4D79252817CDF7E500B811E2 /* DropBoxUserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBoxUserObject.m; sourceTree = "<group>"; };
+		4D828C5F17CF0C9700914EAB /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		4D828C6017CF0C9700914EAB /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		4DB1050C17CE5CB4002D0B0A /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		4DB1050D17CE5CB4002D0B0A /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 		4DB1051117CE5E1E002D0B0A /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars.png; sourceTree = "<group>"; };
@@ -97,6 +102,9 @@
 		4DB1051517CE5E1F002D0B0A /* DropBoxUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBoxUserView.m; sourceTree = "<group>"; };
 		4DB1051917CE5E7C002D0B0A /* MBProgressHUD+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Utils.h"; sourceTree = "<group>"; };
 		4DB1051A17CE5E7C002D0B0A /* MBProgressHUD+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Utils.m"; sourceTree = "<group>"; };
+		4DB1051C17CE6F55002D0B0A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4DB1051E17CE6F9D002D0B0A /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		4DB1051F17CE6F9D002D0B0A /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB1051D17CE6F55002D0B0A /* MapKit.framework in Frameworks */,
 				4D0AEB8017CDB31900A06C0D /* UIKit.framework in Frameworks */,
 				4D0AEB8217CDB31900A06C0D /* Foundation.framework in Frameworks */,
 				4D0AEB8417CDB31900A06C0D /* CoreGraphics.framework in Frameworks */,
@@ -203,6 +212,7 @@
 		4D0AEB7E17CDB31900A06C0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DB1051C17CE6F55002D0B0A /* MapKit.framework */,
 				4D050E9A17CDD53F00C530A6 /* libxml2.dylib */,
 				4D0AEB7F17CDB31900A06C0D /* UIKit.framework */,
 				4D0AEB8117CDB31900A06C0D /* Foundation.framework */,
@@ -273,6 +283,8 @@
 			children = (
 				4D79252717CDF7E500B811E2 /* DropBoxUserObject.h */,
 				4D79252817CDF7E500B811E2 /* DropBoxUserObject.m */,
+				4DB1051E17CE6F9D002D0B0A /* MapAnnotation.h */,
+				4DB1051F17CE6F9D002D0B0A /* MapAnnotation.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -292,6 +304,8 @@
 				4DB1051017CE5E1E002D0B0A /* Assets */,
 				4DB1051417CE5E1E002D0B0A /* DropBoxUserView.h */,
 				4DB1051517CE5E1F002D0B0A /* DropBoxUserView.m */,
+				4D828C5F17CF0C9700914EAB /* MapView.h */,
+				4D828C6017CF0C9700914EAB /* MapView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -392,6 +406,8 @@
 				4DB1050E17CE5CB4002D0B0A /* XMLParser.m in Sources */,
 				4DB1051817CE5E1F002D0B0A /* DropBoxUserView.m in Sources */,
 				4DB1051B17CE5E7D002D0B0A /* MBProgressHUD+Utils.m in Sources */,
+				4DB1052017CE6F9D002D0B0A /* MapAnnotation.m in Sources */,
+				4D828C6117CF0C9700914EAB /* MapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

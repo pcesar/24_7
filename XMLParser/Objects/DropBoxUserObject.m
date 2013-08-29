@@ -20,8 +20,8 @@
     duo.city = [data objectForKey:kCity];
     duo.state = [data objectForKey:kState];
     duo.zip = [data objectForKey:kZip];
-    duo.latitude = [[data objectForKey:kLatitude] floatValue];
-    duo.longitude = [[data objectForKey:kLongitude] floatValue];
+    duo.latitude = [[data objectForKey:kLatitude] doubleValue];
+    duo.longitude = [[data objectForKey:kLongitude] doubleValue];
     duo.phone = [data objectForKey:kPhone];
     
     return duo;

@@ -8,6 +8,7 @@
 
 #import "DropBoxUserVC.h"
 #import "DropBoxUserView.h"
+#import "MapView.h"
 #import "XMLParser.h"
 #import "MBProgressHUD+Utils.h"
 
@@ -29,7 +30,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-
     [self loadData];
 }
 
@@ -48,6 +48,8 @@
             [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
             DropBoxUserView *dbUserView = [[DropBoxUserView alloc]initWithDropBoxUserObject:duo];
             [self.view addSubview:dbUserView];
+            
+            [dbUserView.mapView displayMap];
         });
     });
 }

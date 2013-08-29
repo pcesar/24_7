@@ -17,8 +17,8 @@
 @property (strong, nonatomic) NSString *city;
 @property (strong, nonatomic) NSString *state;
 @property (strong, nonatomic) NSString *zip;
-@property (assign, nonatomic) float latitude;
-@property (assign, nonatomic) float longitude;
+@property (assign, nonatomic) double latitude;
+@property (assign, nonatomic) double longitude;
 @property (strong, nonatomic) NSString *phone;
 
 - (DropBoxUserObject *)initWithData:(NSDictionary *)data;
