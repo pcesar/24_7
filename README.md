@@ -1,7 +1,7 @@
 24_7
 ====
 
-This app basically fetches and parses a dropbox user content file (XML format) and displays the information
+This app basically fetches and parses an XML file and displays the information
 on a single view. 
 
 The third party library used for fetching and parsing the XML is TouchXML.
