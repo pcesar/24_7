@@ -20,7 +20,6 @@
 		4D050E9717CDD4DA00C530A6 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D050E8617CDD4DA00C530A6 /* CXMLNode_PrivateExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4D050E9817CDD4DA00C530A6 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D050E8817CDD4DA00C530A6 /* CXMLNode_XPathExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4D050E9917CDD4DA00C530A6 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D050E8B17CDD4DA00C530A6 /* CTidy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4D050EA317CDDB1000C530A6 /* NSDate+Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D050EA217CDDB1000C530A6 /* NSDate+Converter.m */; };
 		4D050EA717CDDBC000C530A6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D050EA617CDDBC000C530A6 /* MBProgressHUD.m */; };
 		4D0AEB8017CDB31900A06C0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0AEB7F17CDB31900A06C0D /* UIKit.framework */; };
 		4D0AEB8217CDB31900A06C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0AEB8117CDB31900A06C0D /* Foundation.framework */; };
@@ -74,8 +73,6 @@
 		4D050E8B17CDD4DA00C530A6 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
 		4D050E8C17CDD4DA00C530A6 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
 		4D050E9A17CDD53F00C530A6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		4D050EA117CDDB1000C530A6 /* NSDate+Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Converter.h"; sourceTree = "<group>"; };
-		4D050EA217CDDB1000C530A6 /* NSDate+Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Converter.m"; sourceTree = "<group>"; };
 		4D050EA517CDDBC000C530A6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		4D050EA617CDDBC000C530A6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4D0AEB7C17CDB31900A06C0D /* XMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,8 +178,6 @@
 		4D050EA017CDDAEF00C530A6 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				4D050EA117CDDB1000C530A6 /* NSDate+Converter.h */,
-				4D050EA217CDDB1000C530A6 /* NSDate+Converter.m */,
 				4DB1051917CE5E7C002D0B0A /* MBProgressHUD+Utils.h */,
 				4DB1051A17CE5E7C002D0B0A /* MBProgressHUD+Utils.m */,
 			);
@@ -410,7 +405,6 @@
 				4D050E9717CDD4DA00C530A6 /* CXMLNode_PrivateExtensions.m in Sources */,
 				4D050E9817CDD4DA00C530A6 /* CXMLNode_XPathExtensions.m in Sources */,
 				4D050E9917CDD4DA00C530A6 /* CTidy.m in Sources */,
-				4D050EA317CDDB1000C530A6 /* NSDate+Converter.m in Sources */,
 				4D050EA717CDDBC000C530A6 /* MBProgressHUD.m in Sources */,
 				4D79252217CDF7DE00B811E2 /* AppDelegate.m in Sources */,
 				4D79252517CDF7DE00B811E2 /* DropBoxUserVC.m in Sources */,
