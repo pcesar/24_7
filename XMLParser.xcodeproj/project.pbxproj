@@ -30,6 +30,9 @@
 		4D0AEB9217CDB31900A06C0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0AEB9117CDB31900A06C0D /* Default.png */; };
 		4D0AEB9417CDB31900A06C0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0AEB9317CDB31900A06C0D /* Default@2x.png */; };
 		4D0AEB9617CDB31900A06C0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0AEB9517CDB31900A06C0D /* Default-568h@2x.png */; };
+		4D5C41C417CF673400C436C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C41C317CF673400C436C4 /* Default.png */; };
+		4D5C41C617CF67CF00C436C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C41C517CF67CF00C436C4 /* Default@2x.png */; };
+		4D5C41C817CF682600C436C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C41C717CF682600C436C4 /* Default@2x.png */; };
 		4D79252217CDF7DE00B811E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79251B17CDF7DE00B811E2 /* AppDelegate.m */; };
 		4D79252517CDF7DE00B811E2 /* DropBoxUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79252117CDF7DE00B811E2 /* DropBoxUserVC.m */; };
 		4D79252917CDF7E500B811E2 /* DropBoxUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D79252817CDF7E500B811E2 /* DropBoxUserObject.m */; };
@@ -87,6 +90,9 @@
 		4D0AEB9317CDB31900A06C0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4D0AEB9517CDB31900A06C0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4D0AEBA817CDB43900A06C0D /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
+		4D5C41C317CF673400C436C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D5C41C517CF67CF00C436C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D5C41C717CF682600C436C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4D79251A17CDF7DE00B811E2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D79251B17CDF7DE00B811E2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D79252017CDF7DE00B811E2 /* DropBoxUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBoxUserVC.h; sourceTree = "<group>"; };
@@ -195,6 +201,9 @@
 		4D0AEB7317CDB31900A06C0D = {
 			isa = PBXGroup;
 			children = (
+				4D5C41C717CF682600C436C4 /* Default@2x.png */,
+				4D5C41C517CF67CF00C436C4 /* Default@2x.png */,
+				4D5C41C317CF673400C436C4 /* Default.png */,
 				4D0AEB8517CDB31900A06C0D /* XMLParser */,
 				4D0AEB7E17CDB31900A06C0D /* Frameworks */,
 				4D0AEB7D17CDB31900A06C0D /* Products */,
@@ -374,6 +383,9 @@
 				4D0AEB9417CDB31900A06C0D /* Default@2x.png in Resources */,
 				4D0AEB9617CDB31900A06C0D /* Default-568h@2x.png in Resources */,
 				4DB1051617CE5E1F002D0B0A /* stars.png in Resources */,
+				4D5C41C417CF673400C436C4 /* Default.png in Resources */,
+				4D5C41C617CF67CF00C436C4 /* Default@2x.png in Resources */,
+				4D5C41C817CF682600C436C4 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
