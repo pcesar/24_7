@@ -7,12 +7,8 @@
 //
 
 #import "DropBoxUserObject.h"
-#import "MapView.h"
-#import "MapAnnotation.h"
 
 @interface DropBoxUserView : UIView
-
-@property (strong, nonatomic) MapView *mapView;
 
 - (id)initWithDropBoxUserObject:(DropBoxUserObject *)duo;
 

@@ -37,6 +37,7 @@
 {
     [MBProgressHUD showHUDAddedTo:self.view mode:MBProgressHUDModeIndeterminate label:LOADING detailsLabel:nil];
     __block DropBoxUserObject *duo;
+    MapView *mapView = [[MapView alloc]initWithFrame:CGRectMake(10, 50, 300, 180)];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
@@ -47,9 +48,17 @@
             duo = [[DropBoxUserObject alloc]initWithData:[entries objectAtIndex:0]];
             [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
             DropBoxUserView *dbUserView = [[DropBoxUserView alloc]initWithDropBoxUserObject:duo];
-            [self.view addSubview:dbUserView];
+            MapAnnotation *mapAnnotation = [[MapAnnotation alloc]init];
             
-            [dbUserView.mapView displayMap];
+            CLLocationCoordinate2D location;
+            location.latitude = duo.latitude;
+            location.longitude = duo.longitude;
+            mapAnnotation.coordinate = location;
+            mapAnnotation.title = duo.name;
+            mapView.mapAnnotation = mapAnnotation;
+            [self.view addSubview:dbUserView];
+            [self.view addSubview:mapView];
+            [mapView displayMap];
         });
     });
 }
